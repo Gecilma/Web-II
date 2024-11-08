@@ -1,0 +1,53 @@
+
+
+/*
+  regras
+  propriedades: valor;
+*/
+
+
+body{
+    height: 100vh;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertical*/
+    align-items: center;  /* Horizontal*/
+    height: 40%;
+    width: 20%;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: aliceblue;
+
+
+}
+
+
+
+
+.bloco{
+    display: flex;
+    width: 90%;
+    gap: 10px;
+   
+}
+
+
+.legenda{
+    font-weight: 600;
+    width: 30%;
+    text-align: center;
+}

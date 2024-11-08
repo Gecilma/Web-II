@@ -16,7 +16,7 @@ function mostrar(){
                 <td>${item.alunos}</td>
             </tr>
             `
-        })
+        })       
     } )
     .catch( erro => console.error("Deu ruim aqui..", erro))
 }

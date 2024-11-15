@@ -1,0 +1,50 @@
+body{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    gap: 10px;
+    width: 400px;
+    height: 350px;
+    font-size: large;
+    font-weight: bolder;
+    border-radius: 7px;
+    box-shadow: -1px 9px 12px -7px rgba(0,0,0,0.41);
+}
+
+#postForm{
+
+}
+
+.inputTitulo{
+  height: 30px;
+  border-radius: 5px;
+  border: 1px, solid, rgb(133, 133, 133);
+}
+
+.inputConteudo{
+    height:90px;
+    border-radius: 5px;
+    border: 1px, solid, rgb(133, 133, 133);
+}
+
+button{
+    background-color: rgb(22, 139, 235);
+    border: black, solid, 2px;
+    border-radius:5px;
+    height: 50px;
+}
+
+
+body{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}

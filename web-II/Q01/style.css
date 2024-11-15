@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.country {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    display: flex;
+}
+.country img {
+    justify-items: end;
+    width: 50px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 15px;
+}
